@@ -6,7 +6,7 @@ function KelvinToFahrenheit(kelvin_temp){
 
 function getWeather(city, callback){
     //console.log("getWeather() called");
-    let api_key = "aed2b09e4de4ca581fb91bf745bb264e";
+    let api_key = <API KEY HERE>;
     let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
 
     console.log(url);
